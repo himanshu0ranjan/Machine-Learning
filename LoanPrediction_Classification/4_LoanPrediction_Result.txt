@@ -1,0 +1,62 @@
+GB Cross-Validated Scores: [ 0.79032258  0.83870968  0.74193548  0.74193548  0.81967213  0.81967213
+  0.86885246  0.81967213  0.83606557  0.83606557]
+Cross Validated GB Model Score: 86.81%
+Cross Validated Accuracy Score of GB Algorithm: 81.11%
+Cross Validated Confusion Matrix of GB Algorithm:
+ [[100  92]
+ [ 24 398]]
+Cross Validated Classification Report of GB Algorithm:
+              precision    recall  f1-score   support
+
+        0.0       0.81      0.52      0.63       192
+        1.0       0.81      0.94      0.87       422
+
+avg / total       0.81      0.81      0.80       614
+
+ADB Cross-Validated Scores: [ 0.77419355  0.85483871  0.77419355  0.79032258  0.80327869  0.81967213
+  0.85245902  0.83606557  0.80327869  0.80327869]
+Cross Validated ADB Model Score: 84.85%
+Cross Validated Accuracy Score of ADB Algorithm: 81.11%
+Cross Validated Confusion Matrix of ADB Algorithm:
+ [[ 96  96]
+ [ 20 402]]
+Cross Validated Classification Report of ADB Algorithm:
+              precision    recall  f1-score   support
+
+        0.0       0.83      0.50      0.62       192
+        1.0       0.81      0.95      0.87       422
+
+avg / total       0.81      0.81      0.80       614
+
+ETC Cross-Validated Scores: [ 0.80645161  0.72580645  0.74193548  0.72580645  0.7704918   0.7704918
+  0.86885246  0.73770492  0.80327869  0.80327869]
+Cross Validated ETC Model Score: 94.79%
+Cross Validated Accuracy Score of ETC Algorithm: 77.52%
+Cross Validated Confusion Matrix of ETC Algorithm:
+ [[110  82]
+ [ 56 366]]
+Cross Validated Classification Report of ETC Algorithm:
+              precision    recall  f1-score   support
+
+        0.0       0.66      0.57      0.61       192
+        1.0       0.82      0.87      0.84       422
+
+avg / total       0.77      0.78      0.77       614
+
+RFC Cross-Validated Scores: [ 0.80645161  0.77419355  0.75806452  0.79032258  0.78688525  0.7704918
+  0.80327869  0.75409836  0.81967213  0.83606557]
+Cross Validated RFC Model Score: 95.44%
+Cross Validated Accuracy Score of RFC Algorithm: 78.99%
+Cross Validated Confusion Matrix of RFC Algorithm:
+ [[105  87]
+ [ 42 380]]
+Cross Validated Classification Report of RFC Algorithm:
+              precision    recall  f1-score   support
+
+        0.0       0.71      0.55      0.62       192
+        1.0       0.81      0.90      0.85       422
+
+avg / total       0.78      0.79      0.78       614
+
+
+Process finished with exit code 0

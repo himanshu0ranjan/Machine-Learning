@@ -1,0 +1,124 @@
+LR: 0.807287 (0.051080)
+RF: 0.752497 (0.077063)
+LDA: 0.809852 (0.051036)
+KNN: 0.666869 (0.083656)
+CART: 0.707962 (0.069381)
+NB: 0.802024 (0.058596)
+SVM: 0.711471 (0.061768)
+XGBC: 0.797031 (0.058508)
+LR Model Score(Mean Accuracy of Test Data): 77.08%
+Accuracy Score of LR Algorithm: 77.08%
+Confusion Matrix of LR Algorithm:
+ [[14 21]
+ [ 1 60]]
+Classification Report of LR Algorithm:
+              precision    recall  f1-score   support
+
+        0.0       0.93      0.40      0.56        35
+        1.0       0.74      0.98      0.85        61
+
+avg / total       0.81      0.77      0.74        96
+
+LR Cross-Validated Scores: [ 0.75        0.85416667  0.72916667  0.77083333  0.83333333  0.75
+  0.83333333  0.875       0.8125      0.8125    ]
+Cross Validated LR Model Score: 80.83%
+Cross Validated Accuracy Score of LR Algorithm: 80.21%
+Cross Validated Confusion Matrix of LR Algorithm:
+ [[ 63  85]
+ [ 10 322]]
+Cross Validated Classification Report of LR Algorithm:
+              precision    recall  f1-score   support
+
+        0.0       0.86      0.43      0.57       148
+        1.0       0.79      0.97      0.87       332
+
+avg / total       0.81      0.80      0.78       480
+
+NB Model Score(Mean Accuracy of Test Data): 73.96%
+Accuracy Score of NB Algorithm: 73.96%
+Confusion Matrix of NB Algorithm:
+ [[15 20]
+ [ 5 56]]
+Classification Report of NB Algorithm:
+              precision    recall  f1-score   support
+
+        0.0       0.75      0.43      0.55        35
+        1.0       0.74      0.92      0.82        61
+
+avg / total       0.74      0.74      0.72        96
+
+Cross-Validated Scores: [ 0.75        0.8125      0.75        0.72916667  0.79166667  0.79166667
+  0.79166667  0.875       0.75        0.83333333]
+Cross Validated NB Model Score: 79.79%
+Cross Validated Accuracy Score of NB Algorithm: 78.75%
+Cross Validated Confusion Matrix of NB Algorithm:
+ [[ 69  79]
+ [ 23 309]]
+Cross Validated Classification Report of NB Algorithm:
+              precision    recall  f1-score   support
+
+        0.0       0.75      0.47      0.57       148
+        1.0       0.80      0.93      0.86       332
+
+avg / total       0.78      0.79      0.77       480
+
+XGBC Model Score(Mean Accuracy of Test Data): 75.00%
+Accuracy Score of XGBC Algorithm: 75.00%
+Confusion Matrix of XGBC Algorithm:
+ [[17 18]
+ [ 6 55]]
+Classification Report of XGBC Algorithm:
+              precision    recall  f1-score   support
+
+        0.0       0.74      0.49      0.59        35
+        1.0       0.75      0.90      0.82        61
+
+avg / total       0.75      0.75      0.74        96
+
+XGBC Cross-Validated Scores: [ 0.72916667  0.83333333  0.70833333  0.77083333  0.85416667  0.75
+  0.83333333  0.83333333  0.8125      0.8125    ]
+Cross Validated XGBC Model Score: 86.46%
+Cross Validated Accuracy Score of XGBC Algorithm: 79.38%
+Cross Validated Confusion Matrix of XGBC Algorithm:
+ [[ 66  82]
+ [ 17 315]]
+Cross Validated Classification Report of XGBC Algorithm:
+              precision    recall  f1-score   support
+
+        0.0       0.80      0.45      0.57       148
+        1.0       0.79      0.95      0.86       332
+
+avg / total       0.79      0.79      0.77       480
+
+LDA Model Score(Mean Accuracy of Test Data): 77.08%
+Accuracy Score of LDA Algorithm: 73.96%
+Confusion Matrix of LDA Algorithm:
+ [[15 20]
+ [ 5 56]]
+Classification Report of LDA Algorithm:
+              precision    recall  f1-score   support
+
+        0.0       0.75      0.43      0.55        35
+        1.0       0.74      0.92      0.82        61
+
+avg / total       0.74      0.74      0.72        96
+
+Cross-Validated Scores: [ 0.75        0.85416667  0.72916667  0.77083333  0.83333333  0.75
+  0.83333333  0.875       0.83333333  0.83333333]
+Cross Validated LDA Model Score: 81.04%
+Cross Validated Accuracy Score of LDA Algorithm: 80.62%
+Cross Validated Confusion Matrix of LDA Algorithm:
+ [[ 63  85]
+ [  8 324]]
+Cross Validated Classification Report of LDA Algorithm:
+              precision    recall  f1-score   support
+
+        0.0       0.89      0.43      0.58       148
+        1.0       0.79      0.98      0.87       332
+
+avg / total       0.82      0.81      0.78       480
+
+
+Process finished with exit code 0
+
+
